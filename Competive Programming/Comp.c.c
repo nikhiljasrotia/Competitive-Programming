@@ -3,7 +3,9 @@
 bool ToCheckPalindrome(int);
 int main()
 {
-    int x = 1234321;
+    int x;
+    printf("Enter X  Number : ");
+    scanf("%d",&x);
     if(ToCheckPalindrome(x))
         printf("True ");
     else
